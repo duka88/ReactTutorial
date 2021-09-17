@@ -11,9 +11,7 @@ const UseRefBasics = () => {
     e.preventDefault();
     console.log(refContainer.current.value)
   }
-  useEffect(()=>{
-    refContainer.current.focus()
-  })
+
   return (
     <>
       <form className="form" onSubmit={handleSubmit}>
