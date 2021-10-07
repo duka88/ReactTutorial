@@ -1,12 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
+import CocktailList from "./CocktailList";
+import SearchForm from "./SearchForm";
 
 const Cocktail = () => {
   return (
-    <div>
-      <h2>cocktail component</h2>
-    </div>
-  )
-}
+    <main>
+      <SearchForm />
+      <CocktailList />
+    </main>
+  );
+};
 
-export default Cocktail
+export default Cocktail;
